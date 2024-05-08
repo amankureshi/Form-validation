@@ -19,13 +19,14 @@
 
 .form-box {
     width: 90%;
-    max-width: 450px;
-    min-width: 350px;
+    max-width: 28.125rem;
+    min-width: 21.875rem;
     background-color: #fff;
     padding: 55px;
     text-align: center;
     border-radius: 10px;
     box-shadow: -2px 2px 15px rgba(0, 0, 0, 0.5);
+    margin: 1rem;
 }
 
 .form-box h1 {
@@ -88,14 +89,14 @@ form p a {
     color: white;
     border: none;
     outline: none;
-    height: 40px;
+    height: 2.5rem;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 1.2rem;
     transition: background 1s;
 }
 
 .input-group {
-    height: 280px;
+    height: 17.5rem;
 }
 
 button.disable {

@@ -13,10 +13,10 @@ signInBtn.addEventListener("click", () => {
 
   signUpBtn.classList.add("disable");
   signInBtn.classList.remove("disable");
-  underline.style.transform = "translateX(2.5rem)";
+  underline.style.transform = "translateX(2.4rem)";
 });
 signUpBtn.addEventListener("click", () => {
-  nameField.style.maxHeight = "60px";
+  nameField.style.maxHeight = "3.75rem";
   title.innerHTML = "Sign Up";
   text.innerHTML = "Password Suggestions";
   signUpBtn.classList.remove("disable");
